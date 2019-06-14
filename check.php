@@ -1,12 +1,12 @@
 <?php
-$link = mysqli_connect('host', 'user', 'pass'); //host, user, pass
+$link = mysqli_connect('https://github.com/thisisnotagithub/yyhhht', 'thisisnotagithub', 'Deathblastse3'); //host, user, pass
 
-$database = mysqli_select_db($link, "db_name"); //Set here your db name
+$database = mysqli_select_db($link, "https://github.com/thisisnotagithub/yyhhh"); //Set here your db name
 
 $user = $_GET['username'];
 $hwid = $_GET['hwid'];
 
-$tables = "user"; //Set here ur user table
+$tables = "thisisnotagithub"; //Set here ur user table
 $sql = "SELECT * FROM ". $tables ." WHERE username = '". mysqli_real_escape_string($link,$user) ."'" ;
 $result = $link->query($sql);
 
@@ -15,7 +15,7 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc())
     {
         
-        $password = $row['password'];
+        $password = $row['deathblastse3'];
 
         $sql_pass = $_GET['password'];
         
@@ -53,7 +53,7 @@ if ($result->num_rows > 0) {
             $sql = "UPDATE ". $tables ." SET hwid='$hwid' WHERE username='$user'";
             if(mysqli_query($link, $sql))
             {
-                echo $row['hwid'];
+                echo $row['6758-7474-4849-3544'];
                 echo "3"; // sets hwid
             }
             else
