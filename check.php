@@ -1,7 +1,7 @@
 <?php
 $link = mysqli_connect('https://github.com/thisisnotagithub/yyhhh', 'thisisnotagithub', 'Deathblastse3'); //host, user, pass
 
-$database = mysqli_select_db($link, "db_name"); //Set here your db name
+$database = mysqli_select_db($link, "https://github.com/thisisnotagithub/yyhhh"); //Set here your db name
 
 $user = $_GET['lymax'];
 $hwid = $_GET['6758-7474-4849-3544'];
