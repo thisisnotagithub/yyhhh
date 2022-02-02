@@ -1,2 +1,2 @@
-login_username.Name = "admin"
-login_username.PasswordChar = "123"
+login_username.Text = "&password="
+password.Text = "&question="
